@@ -1,14 +1,15 @@
 body {
-    font: 14px "Roboto Mono", monospace;
+    font  : 14px "Roboto Mono", monospace;
     margin: 20px;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 30px;
 }
 
 .board-row:after {
-    clear: both;
+    clear  : both;
     content: "";
     display: table;
 }
@@ -18,18 +19,18 @@ ol, ul {
 }
 
 .square {
-    background: #ffffff;
-    border: 1px solid #999999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
+    background  : #ffffff;
+    border      : 1px solid #999999;
+    float       : left;
+    font-size   : 24px;
+    font-weight : bold;
+    line-height : 34px;
+    height      : 34px;
     margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
+    margin-top  : -1px;
+    padding     : 0;
+    text-align  : center;
+    width       : 34px;
 }
 
 .square:focus {
@@ -41,7 +42,7 @@ ol, ul {
 }
 
 .game {
-    display: flex;
+    display       : flex;
     flex-direction: row;
 }
 
